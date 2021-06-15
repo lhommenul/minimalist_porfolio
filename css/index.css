@@ -1,0 +1,74 @@
+
+:root{
+    --margin_site:8%;
+}
+
+.btn_outline{
+    border: solid 1px grey;
+    padding: 1rem;
+    background-color: rgba(0, 0, 0, 0);
+}
+hr{
+    color: rgb(228, 228, 228);
+    margin: 2.3em 0px;
+}
+/* HEADER */
+header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 2rem 0rem;
+}
+    .menu_list{
+        display: grid;
+        grid-template-rows: repeat(3,1fr);
+        row-gap: 1em;
+        text-align: center;
+        background-color: #33323D;
+        padding: 3em;
+    }
+        .menu_list a {
+            margin: 2em 0px;
+            color: white;
+            text-decoration: none;
+        }
+        .menu_list a:hover{
+            text-decoration: underline;
+        }
+/* BODY */
+body{
+    display: grid;
+    grid-template-columns: var(--margin_site) auto var(--margin_site);
+}
+    body > main,header{
+        grid-column: 2;
+    }
+
+/* HEAD SECTION */
+.head_section{
+    display: grid;
+    grid-template-columns: 100%;
+    grid-template-rows: 1fr auto;
+}
+    .head_section img{
+        max-width: 100%;
+    }
+
+/* ABOUT ME SECTION */
+.about_section{
+    display: grid;
+    grid-template-columns: 100%;
+    grid-template-rows: 1fr auto;
+}
+    .about_section img{
+        max-width: 100%;
+    }
+
+/* INTEREST SECTION */
+.interest_section{
+    display: grid;
+    grid-template-columns: 100%;
+    grid-template-rows: 1fr auto;
+    place-items: center;
+}
+
