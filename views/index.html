@@ -13,9 +13,9 @@
 </head>
 <body>
     <header>
-        <img src="" alt="logo_portfolio">
+        <img src="../assets/logo.svg" alt="logo_portfolio">
         <nav>
-            <button type="button" aria-expanded="false"><img src="" alt="humberger menu"></button>
+            <button type="button" onclick="openMenu()" class="hamburger_icon_nav" aria-expanded="false"><img class="svg_hamburger" type="image/svg+xml" src="../assets/icons/hamburger.svg" alt="humberger menu"></button>
             <!-- list menu -->
             <ul class="menu_list"> 
                 <li><a href="/">HOME</a></li>
@@ -30,7 +30,7 @@
             <img src="../assets/homepage/desktop/image-homepage-hero.jpg" alt="image ordinateur">
             <div>
                 <h1>Hey, I’m Alex Spencer and I love building beautiful websites</h1>
-                <button><span>logo</span> ABOUT ME</button>
+                <button class="primary_btn" type="button"><img class="primary_btn_logo" src="../assets/icons/down-arrows.svg" alt="logo button"><span class="primary_btn_text">ABOUT ME</span></button>
             </div>
         </section>
         <!-- about me -->
@@ -42,14 +42,14 @@
                 <p>
                     I’m a junior front-end developer looking for a new role in an exciting company. I focus on writing accessible HTML, using modern CSS practices and writing clean JavaScript. When writing JavaScript code, I mostly use React, but I can adapt to whatever tools are required. I’m based in London, UK, but I’m happy working remotely and have experience in remote teams. When I’m not coding, you’ll find me outdoors. I love being out in nature whether that’s going for a walk, run or cycling. I’d love you to check out my work.
                 </p>
-                <button class="btn_outline">GO TO PORTFOLIO</button>
+                <button class="secondary_btn">GO TO PORTFOLIO</button>
                 <hr>
             </article>
         </section>
         <!-- interest section -->
         <section class="interest_section">
             <h2>Interested in doing a project together?</h2>
-            <button class="btn_outline">CONTACT ME</button>
+            <button class="secondary_btn">CONTACT ME</button>
         </section>
     </main>
     <footer>
@@ -65,5 +65,6 @@
             <li><img class="icon_social_network_img" src="../assets/icons/linkedin.svg" alt="icon linkedin"></li>
         </ul>
     </footer>
+    <script src="../js/script.js"></script>
 </body>
 </html>

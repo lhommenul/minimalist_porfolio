@@ -14,22 +14,6 @@ header{
     justify-content: space-between;
     margin: 2rem 0rem;
 }
-    .menu_list{
-        display: grid;
-        grid-template-rows: repeat(3,1fr);
-        row-gap: 1em;
-        text-align: center;
-        background-color: #33323D;
-        padding: 3em;
-    }
-        .menu_list a {
-            margin: 2em 0px;
-            color: white;
-            text-decoration: none;
-        }
-        .menu_list a:hover{
-            text-decoration: underline;
-        }
 /* BODY */
 body{
     display: grid;
@@ -39,8 +23,6 @@ body{
         grid-column: 2;
     }
 
-
-    
 /* HEAD SECTION */
 .head_section{
     display: grid;

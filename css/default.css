@@ -1,3 +1,4 @@
+/* =========================== RESET CSS =========================== */
 *{
     margin: 0px;
     padding: 0px;
@@ -31,7 +32,83 @@ h3{
     font-size: 2rem;
     line-height: 2.1rem;
 }
-
+/* ================================================================= */
+/* BUTTONS */
+.primary_btn{
+    border: none;
+    background-color: #203A4C;
+    color: white;
+    font-size: 1em;
+    display: flex;
+    flex-direction: row;
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+    justify-content: center;
+    align-content: center;
+}
+.primary_btn:hover,.primary_btn:focus {
+    background-color: #5FB4A2;
+}
+.primary_btn:disabled,
+button[disabled]{
+    background-color: #D1D6DA;
+}
+    /* logo */
+    .primary_btn_logo{
+        padding: 1em;
+    }
+    .primary_btn_text{
+        padding: 1em 2.5em;
+    }
+.secondary_btn{
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+    border: solid 1px grey;
+    padding: 1rem;
+    background-color: rgba(0, 0, 0, 0);
+}
+.secondary_btn:hover,.secondary_btn:focus{
+    border-color: #33323D;
+    color: white;
+    background-color: #33323D;
+}
+.secondary_btn:disabled{
+    background-color: rgba(0, 0, 0, 0);
+    border-color: rgba(0, 0, 0, 0.2);
+}
+/* hamburger */
+nav{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+svg,path,g{
+    fill: red;
+}
+.hamburger_icon_nav{
+    background-color: rgba(0, 0, 0, 0);
+    border: none;
+    cursor: pointer;
+}
+    .svg_hamburger{
+        background-color: rgb(182, 182, 182);
+    }
+.menu_list{
+    display: none; 
+    grid-template-rows: repeat(3,1fr);
+    row-gap: 1em;
+    text-align: center;
+    background-color: #33323D;
+    padding: 3em;
+}
+    .menu_list a {
+        margin: 2em 0px;
+        color: white;
+        text-decoration: none;
+    }
+    .menu_list a:hover{
+        text-decoration: underline;
+    }
 
 /* FOOTER */
 footer{
