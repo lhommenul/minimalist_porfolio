@@ -3,11 +3,6 @@
     --margin_site:8%;
 }
 
-.btn_outline{
-    border: solid 1px grey;
-    padding: 1rem;
-    background-color: rgba(0, 0, 0, 0);
-}
 hr{
     color: rgb(228, 228, 228);
     margin: 2.3em 0px;
@@ -44,6 +39,8 @@ body{
         grid-column: 2;
     }
 
+
+    
 /* HEAD SECTION */
 .head_section{
     display: grid;
