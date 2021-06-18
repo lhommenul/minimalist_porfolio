@@ -4,6 +4,17 @@
     padding: 0px;
     font-family: 'Public Sans', sans-serif;
 }
+html{
+    --bg_grey_brown:#33323D;
+    --bg_blue:#203A4C;
+    --bg_black:#000000;
+    --bg_green:#5FB4A2;
+    --bg_white_smoke:#F5F5F5;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
 ul{
     list-style: none;
 }
@@ -16,21 +27,28 @@ body{
 p{
     font-size: 1rem;
     line-height: 1.8rem;
+    color: var(--bg_grey_brown);
 }
 h1{
+
     font-family: 'Ibarra Real Nova', serif;
     font-size: 3.125rem;
     line-height: 3.125rem;
+    color: var(--bg_grey_brown);
 }
 h2{
+
     font-family: 'Ibarra Real Nova', serif;
     font-size: 2.5rem;
     line-height: 2.5rem;
+    color: var(--bg_grey_brown);
 }
 h3{
+
     font-family: 'Ibarra Real Nova', serif;
     font-size: 2rem;
     line-height: 2.1rem;
+    color: var(--bg_grey_brown);
 }
 /* ================================================================= */
 /* BUTTONS */
