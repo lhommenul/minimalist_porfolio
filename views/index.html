@@ -27,7 +27,12 @@
     <main>
         <!-- head section -->
         <section class="head_section">
-            <img src="../assets/homepage/desktop/image-homepage-hero.jpg" alt="image ordinateur">
+            <picture>
+                <source media="(min-width:768px)" srcset="../assets/homepage/tablet/image-homepage-hero.jpg 1x, ../assets/homepage/tablet/image-homepage-hero@2x.jpg 2x">
+                <source media="(min-width:1440px)" srcset="../assets/homepage/desktop/image-homepage-hero.jpg 1x, ../assets/homepage/desktop/image-homepage-hero@2x.jpg 2x">
+                <!-- <source media="(min-width:465px)" srcset="img_white_flower.jpg"> -->
+                <img src="../assets/homepage/desktop/image-homepage-hero.jpg" alt="un petit mec" style="width:auto;">
+              </picture>
             <div>
                 <h1>Hey, I’m Alex Spencer and I love building beautiful websites</h1>
                 <button class="primary_btn" type="button"><img class="primary_btn_logo" src="../assets/icons/down-arrows.svg" alt="logo button"><span class="primary_btn_text">ABOUT ME</span></button>
@@ -35,7 +40,12 @@
         </section>
         <!-- about me -->
         <section class="about_section">
-            <img src="../assets/homepage/desktop/image-homepage-profile.jpg" alt="image de alex spencer">
+            <picture>
+                <source media="(min-width:768px)" srcset="../assets/homepage/tablet/image-homepage-profile.jpg 1x, ../assets/homepage/tablet/image-homepage-profile@2x.jpg 2x">
+                <source media="(min-width:1440px)" srcset="../assets/homepage/desktop/image-homepage-profile.jpg 1x, ../assets/homepage/desktop/image-homepage-profile@2x.jpg 2x">
+                <!-- <source media="(min-width:465px)" srcset="img_white_flower.jpg"> -->
+                <img src="../assets/homepage/desktop/image-homepage-profile.jpg" alt="image de alex spencer">
+              </picture>
             <article>
                 <hr>
                 <h2>About Me</h2>
